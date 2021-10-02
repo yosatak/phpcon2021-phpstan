@@ -1,0 +1,7 @@
+parameters:
+  level: max
+services:
+  -
+    class: Yosh\Phpcon2021\PHPStanExtension\IsLargeIntReturnTypeExtension
+    tags:
+      - phpstan.broker.dynamicFunctionReturnTypeExtension

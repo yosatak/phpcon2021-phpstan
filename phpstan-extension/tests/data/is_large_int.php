@@ -1,5 +1,4 @@
 <?php
-
 $int = is_large_int(10);
 $int;
 

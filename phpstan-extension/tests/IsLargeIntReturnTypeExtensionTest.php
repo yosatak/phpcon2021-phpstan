@@ -5,7 +5,7 @@ namespace Yosh\Phpcon2021\PHPStanExtension;
 use PHPStan\Rules\Rule;
 
 /**
- * @extends \PHPStan\Testing\RuleTestCase<VariableTypeReportingRule>
+ * @extends \PHPStan\Testing\RuleTestCase<Util\VariableTypeReportingRule>
  */
 class IsLargeIntReturnTypeExtensionTest extends \PHPStan\Testing\RuleTestCase
 {
