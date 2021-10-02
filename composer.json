@@ -1,0 +1,28 @@
+{
+    "name": "yosh/phpcon2021",
+    "type": "project",
+    "require": {
+        "phpstan/phpstan": "^0.12.99"
+    },
+    "license": "BeerWare",
+    "autoload": {
+        "psr-4": {
+            "Yosh\\Phpcon2021\\": "src/",
+            "Yosh\\Phpcon2021\\PHPStanExtension\\": "phpstan-extension/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yosh\\Phpcon2021\\PHPStanExtension\\": "phpstan-extension/tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TAKEUCHI Yoshitaka",
+            "email": "yosh@baud.jp"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
